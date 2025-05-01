@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Logo Container -->
+  <g id="logo" filter="url(#shadow)">
+    <!-- Car Icon in Circle -->
+    <g id="car-symbol">
+      <!-- Circle Background -->
+      <circle cx="35" cy="40" r="25" fill="#1D2F6F"/>
+      
+      <!-- Modern Car Icon -->
+      <g transform="translate(15, 25)" fill="white">
+        <!-- Car Body -->
+        <path d="
+          M 8 20
+          L 12 20
+          L 14 16
+          L 26 16
+          L 28 20
+          L 32 20
+          L 32 25
+          L 8 25
+          Z
+        "/>
+        <!-- Car Top -->
+        <path d="
+          M 16 12
+          L 24 12
+          L 26 16
+          L 14 16
+          Z
+        "/>
+        <!-- Wheels -->
+        <circle cx="14" cy="23" r="3"/>
+        <circle cx="26" cy="23" r="3"/>
+        <!-- Windows -->
+        <path d="
+          M 17 12.5
+          L 23 12.5
+          L 24.5 15.5
+          L 15.5 15.5
+          Z
+          " fill="#1D2F6F"/>
+      </g>
+    </g>
+
+    <!-- arkEase Text -->
+    <g id="text" fill="#1D2F6F">
+      <!-- Park -->
+      <path d="M75 40 l8 20 h10 l-12 -30 l12 -30 h-10 l-8 20 v-20 h-10 v60 h10 z" />
+      <path d="M95 65 h10 v-25 q0 -8 8 -8 t8 8 v25 h10 v-28 q0 -15 -13 -15 t-18 10 v-27 h-5 z" />
+      <path d="M135 65 h10 v-60 h-10 z" />
+    </g>
+    
+    <!-- Ease in gradient -->
+    <g id="ease-text">
+      <path d="M155 65 h35 v-8 h-25 v-18 h20 v-8 h-20 v-18 h25 v-8 h-35 z" fill="url(#ease-gradient)"/>
+      <path d="M195 65 h10 l15 -30 l15 30 h10 l-20 -40 l20 -40 h-10 l-15 30 l-15 -30 h-10 l20 40 z" fill="url(#ease-gradient)"/>
+      <path d="M250 65 h35 v-8 h-25 v-18 h20 v-8 h-20 v-18 h25 v-8 h-35 z" fill="url(#ease-gradient)"/>
+    </g>
+
+    <!-- Tagline -->
+    <text x="75" y="75" font-family="Arial" font-size="12" fill="#1D2F6F" font-weight="500">Smart Parking Solutions</text>
+
+    <!-- Decorative Elements -->
+    <g id="decorative-lines" stroke="#8390FA" stroke-width="1" stroke-opacity="0.3">
+      <path d="M35 70 C 35 75, 265 75, 265 70" />
+      <path d="M35 72 C 35 77, 265 77, 265 72" />
+    </g>
+  </g>
+
+  <!-- Definitions -->
+  <defs>
+    <!-- Shadow Filter -->
+    <filter id="shadow" x="-5" y="0" width="310" height="90" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+
+    <!-- Gradient for 'Ease' -->
+    <linearGradient id="ease-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1D2F6F"/>
+      <stop offset="100%" stop-color="#8390FA"/>
+    </linearGradient>
+
+    <!-- Car Shine Effect -->
+    <linearGradient id="car-shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="white" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shine Effect -->
+  <path d="
+    M 15 25
+    Q 35 35, 55 25
+    " stroke="url(#car-shine)" stroke-width="1" fill="none" opacity="0.5"/>
+</svg> 

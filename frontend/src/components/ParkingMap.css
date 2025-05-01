@@ -1,0 +1,19 @@
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.leaflet-popup-content {
+  min-width: 200px;
+}
+
+.leaflet-popup-content h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.leaflet-popup-content p {
+  margin: 5px 0;
+  font-size: 14px;
+} 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="400" cy="300" r="250" fill="url(#paint0_radial)" fill-opacity="0.1"/>
+  
+  <!-- Parking Space -->
+  <rect x="300" y="200" width="200" height="300" rx="20" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="320" y="220" width="160" height="40" rx="10" fill="#1D2F6F"/>
+  <text x="400" y="250" font-family="Arial" font-size="24" fill="white" text-anchor="middle">PARKING</text>
+  
+  <!-- Parking Lines -->
+  <line x1="320" y1="280" x2="480" y2="280" stroke="#1D2F6F" stroke-width="4" stroke-dasharray="10 10"/>
+  <line x1="320" y1="320" x2="480" y2="320" stroke="#1D2F6F" stroke-width="4" stroke-dasharray="10 10"/>
+  <line x1="320" y1="360" x2="480" y2="360" stroke="#1D2F6F" stroke-width="4" stroke-dasharray="10 10"/>
+  <line x1="320" y1="400" x2="480" y2="400" stroke="#1D2F6F" stroke-width="4" stroke-dasharray="10 10"/>
+  
+  <!-- Car Icon -->
+  <path d="M350 450 L450 450 L440 420 L360 420 Z" fill="#8390FA"/>
+  <circle cx="370" cy="450" r="15" fill="#1D2F6F"/>
+  <circle cx="430" cy="450" r="15" fill="#1D2F6F"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(400 300) rotate(90) scale(250)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg> 
