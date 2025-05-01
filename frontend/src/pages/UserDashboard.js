@@ -278,7 +278,8 @@ const UserDashboard = () => {
   const handleSearch = (e) => {
     const searchTerm = e.target.value.toLowerCase();
     const filtered = parkingSpaces.filter(space => 
-      space.location.toLowerCase().includes(searchTerm)
+      space.name.toLowerCase().includes(searchTerm) ||
+      space.address.toLowerCase().includes(searchTerm)
     );
     setFilteredSpaces(filtered);
   };
